@@ -166,7 +166,7 @@ section ul li{
 section div ul:first-child{
   width: 100px;
   height: 200px;
-  background: url('../stylesheets/media/imgs/homepage_productnav_apple_watch_2x.png');
+  background: url('../stylesheets/media/imgs/watchimage.png');
   background-repeat: no-repeat;
   background-size: 68px 68px;
 }
@@ -174,7 +174,7 @@ section div ul:first-child{
 section div ul:nth-child(2){
   width: 100px;
   height: 200px;
-  background: url('../stylesheets/media/imgs/homepage_productnav_iphone_2x.png');
+  background: url('../stylesheets/media/imgs/iphoneimage.png');
   background-repeat: no-repeat;
   background-size: 68px 68px;
 }

@@ -65,39 +65,29 @@ header ul li:nth-child(10){
   background-position: center center;
 }
 
-/* footer{
-  background-color: #F2F2F2;
-} */
-
-/* footer div:firstchild{
-  width: 100vw;
-  height: 314.34px;
-  background-color: #F2F2F2;
-} */
-
-/* .supportFooterMenu{
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  float: left;
-  width: 25%;
-  font-size: .8em;
-  background-color: #F2F2F2;
-} */
+figure div{
+  background: url('../stylesheets/media/imgs/heroBanner.jpg');
+  width: 98.9vw;;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
 
 nav div{
   width: 100vw;
-  height: 45px;
+  height: 44px;
 
-  background-color: #888888aa;
+  background-color: #88888800;
+  position: sticky;
 }
 
 nav ul{
   width: 1000px;
   height: 100%;
 
-  margin: 0 auto;
-  padding: 0 22 0 22;
+  margin: 10px auto;
+  padding: 0 10px 0 10px;
   border-bottom: solid .2px black;
 }
 
@@ -121,3 +111,29 @@ nav ul li:nth-child(2){
 nav ul li:last-child{
   margin-right: 0;
 }
+
+section div{
+  width: 100vw;
+  height:3000px;
+}
+
+
+/* footer{
+  background-color: #F2F2F2;
+} */
+
+/* footer div:firstchild{
+  width: 100vw;
+  height: 314.34px;
+  background-color: #F2F2F2;
+} */
+
+/* .supportFooterMenu{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 25%;
+  font-size: .8em;
+  background-color: #F2F2F2;
+} */

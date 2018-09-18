@@ -18,8 +18,6 @@ header ul {
   height: 100%;
 
   margin: 0 auto;
-
-  /* background-color: #666; */
 }
 
 header ul li{
@@ -39,8 +37,6 @@ header ul li{
   cursor: pointer;
   user-select: none;
   transition: .2s;
-  /* background-color: #999; */
-
 }
 
     header ul li:hover{
@@ -66,9 +62,10 @@ header ul li:nth-child(10){
   background-position: center center;
 }
 
+/* HERO IMAGE */
 figure div{
   background: url('../stylesheets/media/imgs/heroBanner.jpg');
-  width: 1800px;
+  width: 100vw;
   height: 680px;
   min-height: 500px;
   background-repeat: no-repeat;
@@ -76,13 +73,36 @@ figure div{
   background-position: center 30%;
 }
 
+figure div h1{
+  position: absolute;
+  margin: 170px 0px 0px 445px;
+
+  color: #333333;
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: 500;
+  letter-spacing: .001em;
+}
+
+figure div h2{
+  position: absolute;
+  margin: 240px 0px 0px 640px;
+
+  color: #333333;
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: 300;
+  letter-spacing: .001em;
+}
+
+/* NAVIGATION BAR */
 nav div{
   width: 100vw;
   height: 44px;
 
   background-color: #88888800;
   position: fixed;
-  margin-top: 44px;
+  margin-top: 40px;
 }
 
 nav ul{
@@ -96,7 +116,15 @@ nav ul{
 
 nav ul li{
   display: inline-block;
+
+  cursor: pointer;
+  user-select: none;
 }
+
+  nav ul li:hover{
+    color: #0070c9;
+    transition: .2s;
+  }
 
 nav ul li:first-child{
   font-size: 1.4em;
@@ -129,17 +157,17 @@ section div{
 }
 
 
-/* footer{
+footer{
   background-color: #F2F2F2;
-} */
+}
 
-/* footer div:firstchild{
+footer div:firstchild{
   width: 100vw;
   height: 314.34px;
   background-color: #F2F2F2;
-} */
+}
 
-/* .supportFooterMenu{
+.supportFooterMenu{
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -147,4 +175,4 @@ section div{
   width: 25%;
   font-size: .8em;
   background-color: #F2F2F2;
-} */
+}

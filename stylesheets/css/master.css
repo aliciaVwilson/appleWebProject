@@ -67,11 +67,13 @@ header ul li:nth-child(10){
 
 figure div{
   background: url('../stylesheets/media/imgs/heroBanner.jpg');
-  width: 98.9vw;;
+  width: 1800px;
+  height: 680px;
   min-height: 500px;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
+  background-size: cover;
+  background-position: center 30%;
+
 }
 
 nav div{
@@ -79,7 +81,7 @@ nav div{
   height: 44px;
 
   background-color: #88888800;
-  position: sticky;
+  position: fixed;
 }
 
 nav ul{
@@ -88,7 +90,7 @@ nav ul{
 
   margin: 10px auto;
   padding: 0 10px 0 10px;
-  border-bottom: solid .2px black;
+  border-bottom: solid .02px #888888;
 }
 
 nav ul li{
@@ -101,15 +103,23 @@ nav ul li:first-child{
 
   line-height: 45px;
   margin-left: 4%;
-  margin-right: 61%;
+  margin-right: 68%;
 }
+
 
 nav ul li:nth-child(2){
   margin-right: 2%;
+
+  font-size: .7em;
+  font-weight: 300;
+  letter-spacing: .08;
 }
 
 nav ul li:last-child{
   margin-right: 0;
+
+  font-size: .7em;
+  font-weight: 300;
 }
 
 section div{

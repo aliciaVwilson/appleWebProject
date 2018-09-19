@@ -1,6 +1,7 @@
 /* MASTER CSS FILE */
 body{
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #333333;
 }
 
 span{
@@ -14,6 +15,11 @@ h2{
   font-weight: 400;
 
   margin: 0px 0px 20px 0px;
+}
+
+h3{
+  font-size: 30px;
+  margin: 8px 0;
 }
 
 p{
@@ -74,7 +80,7 @@ header ul li:nth-child(9){
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+/* Shopping bag */
 header ul li:nth-child(10){
   background:url('https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/bag/image_large.svg');
   background-repeat: no-repeat;
@@ -263,7 +269,7 @@ section div ul li:nth-child(6){
   border-bottom: solid .02px #DEDEDE;
 }
 
-
+/* Update to iOS 12 div */
 
 #updateTo12{
   width: 100vw;
@@ -296,12 +302,63 @@ section div ul li:nth-child(6){
   margin: 3% 0px 0px 23%;
 }
 
+/* Coverage and fixing div */
 #coverageFixing{
   width: 100vw;
-  height:354px;
-
-  margin: 42.667 230 0 230;
+  height:396.667px;
 }
+
+#coverageFixingContainer{
+  width: 980px;
+  height: 354px;
+
+  margin: 60px auto 0 auto;
+}
+
+#coverageFixingContainer p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#appleCareContainer{
+  width: 446.83px;
+  height: 354px;
+
+  float: left;
+  padding-right: 43.172px;
+}
+
+  #appleCareImage{
+    width: 240px;
+    height: 152px;
+
+    margin: 0 auto;
+
+    background: url('../stylesheets/media/imgs/apple-care-products_2x.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+#appleRepairContainer{
+    width: 446.83px;
+    height: 354px;
+
+    float: left;
+    padding-left: 43.172px;
+}
+
+  #repairImage{
+    width: 240px;
+    height: 152px;
+
+    background: url('../stylesheets/media/imgs/repair_2x.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
 
 .dividerDiv{
   width: 100vw;
@@ -313,8 +370,32 @@ section div ul li:nth-child(6){
 
 #bewareCounterfeit{
   width: 100vw;
-  height: 214px;
+  height: 246px;
+
+  clear: both;
 }
+
+#bewareCounterfeitContainer{
+    width: 817px;
+    height: 214px;
+
+    text-align: center;
+    margin: 32px auto 0 auto;
+}
+
+  #bewareCounterfeitContainer h3{
+    font-size: 23px;
+
+    margin-bottom: 13px;
+  }
+
+  #bewareCounterfeitContainer p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+
+    margin-bottom: 8px;
+  }
 
 #watchAndLearn{
   width: 100vw;
@@ -323,15 +404,87 @@ section div ul li:nth-child(6){
   background: url('../stylesheets/media/imgs/watchandlearn.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   border-bottom: solid .02px #DEDEDE;
 }
 
+#watchAndLearn h2{
+  font-size: 40px;
+}
+
+#watchAndLearn p{
+  font-size: 17px;
+  margin-top: 12px;
+}
+
+#watchAndLearnContainer{
+  width: 400px;
+  height: 232px;
+
+  float: left;
+  margin-left: 230px;
+  margin-top: 194px;
+}
+
 #questionsContacts{
   width: 100vw;
-  height: 445.75px;
+  height: 490px;
 
   border-bottom: solid .02px #DEDEDE;
+}
+
+#questionsContactsContainer{
+  width: 980px;
+  height: 445px;
+
+  margin: 42.667px 230px 0 230px;
+}
+
+#questionsContainer{
+  width: 446.83px;
+  height: 445px;
+
+  float: left;
+  margin-right: 43.172px;
+}
+
+#questionsImage{
+  width: 375px;
+  height: 230px;
+
+  background: url('../stylesheets/media/imgs/questionImage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#talkContainer{
+  width: 446.83px;
+  height: 445px;
+
+  float: left;
+  margin-left: 43.172px;
+}
+
+#talkImage{
+  width: 375px;
+  height: 230px;
+
+  background: url('../stylesheets/media/imgs/talkImage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#questionsContactsContainer h3{
+  font-size: 32px;
+  margin: 8px 0px 8px 0px;
+}
+
+#questionsContactsContainer p{
+  font-size: 17px;
+  line-height: 1.5;
+
+  margin-top: 12.75px;
 }
 
 #appleSessions{

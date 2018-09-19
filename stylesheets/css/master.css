@@ -165,7 +165,7 @@ section ul li{
   display: inline;
 }
 
-section div ul:first-child{
+#watchImage{
   width: 100px;
   height: 200px;
   background: url('../stylesheets/media/imgs/watchimage.png');

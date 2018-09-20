@@ -124,23 +124,43 @@ figure div h2{
 
 .supportSearch{
   height: 52px;
-  background-color: red;
+  margin-top: 220px;
 }
+
+/* input[type="text"]::before{
+
+} */
 
 input[type="text"]{
   width: 654px;
   height: 52px;
 
+  background-color: #FFFFFF;
+
+  border: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+
+  display: block;
+  margin: 0 auto;
+  padding-left: 40px;
+
+  font-size: 1.375rem;
+  font-weight: 300;
+
+  background-image: url('../stylesheets/media/imgs/search_icon_black.svg');
+  background-repeat: no-repeat;
+  background-size: 3.7%;
+  background-position: 10px center;
 }
 
-button[type="submit"]{
-  width: 40px;
-  height: 44px;
-  background-color: yellow;
+input[type="text"]::placeholder{
+  color: #888;
+}
 
-  background: url('../stylesheets/media/imgs/search_icon_black.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
+input[type="text"]:focus{
+  outline: none;
+  border: none;
 }
 
 /* NAVIGATION BAR */
